@@ -2,7 +2,7 @@ services:
   - type: web
     name: mi-api
     env: php
-    runtime: php:8.0.30
+    runtime: php:8
     plan: free
     buildCommand: "composer install"
     startCommand: "php -S 0.0.0.0:10000 -t public"
